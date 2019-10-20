@@ -1,0 +1,10 @@
+Debuger process
+
+Guess one:
+    problem in main-for loop.
+result:
+    ok
+
+Guess two:
+    @cmp reference
+    try: price cmp when called

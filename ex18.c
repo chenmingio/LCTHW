@@ -1,3 +1,4 @@
+#include "dbg.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
@@ -73,6 +74,7 @@ void test_sort(int *numbers, int count, compare_cb cmp)
 {
   int i = 0;
   int *sorted = bubble_sort(numbers, count, cmp);
+  debug("currect cmp used is %p.", cmp);
 
   if(!sorted)
     die("Sorting failed.");

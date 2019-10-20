@@ -1,15 +1,12 @@
-# include <stdio.h>
+#include <stdio.h>
 
-/* this is the comment */
+int main(int argc, char *argv[])
+{
+    //    this is a comment
 
-int main(int argc, char *argv[]){
+    int distance = 100;
 
-  int distance = 100;
+    printf("you are %d miles away from home.\n", distance);
 
-    // this is also a comment
-
-  printf("you are %d miles away from home.\n", distance);
-
-  return 0;
-
+    return 0;
 }
